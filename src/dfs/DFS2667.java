@@ -35,7 +35,6 @@ public class DFS2667 {
         }
 
         printRes();
-
     }
 
     static public void init() {
