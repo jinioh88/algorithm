@@ -33,7 +33,6 @@ public class DFS2667 {
                 }
             }
         }
-
         printRes();
     }
 
