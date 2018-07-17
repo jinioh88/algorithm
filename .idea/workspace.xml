@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="896c1220-e91f-4e56-b9a6-a596b878a933" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bfs/BFS1260.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/bfs/BFS1278.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bfs/BFS1697.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithm/dfs/DFS2667.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/dfs/DFS2667.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dfs/DFS2667.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dfs/DFS2667.java" afterDir="false" />
@@ -21,8 +21,8 @@
       <file leaf-file-name="BFS1278.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bfs/BFS1278.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="41" column="60" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="60" />
+            <state relative-caret-position="585">
+              <caret line="41" column="60" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,11 +30,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BFS1260.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BFS1260.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bfs/BFS1260.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+            <state relative-caret-position="529">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BFS1697.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bfs/BFS1697.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/dfs/DFS2667.java" />
         <option value="$PROJECT_DIR$/src/bfs/BFS1278.java" />
         <option value="$PROJECT_DIR$/src/bfs/BFS1260.java" />
+        <option value="$PROJECT_DIR$/src/bfs/BFS1697.java" />
       </list>
     </option>
   </component>
@@ -121,6 +134,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,18 +153,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="bfs" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dfs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BFS1260">
+  <component name="RunManager" selected="Application.BFS1697">
     <configuration name="BFS1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bfs.BFS1260" />
       <module name="algorithm" />
@@ -199,13 +206,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DFS2468" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dfs.DFS2468" />
+    <configuration name="BFS1697" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bfs.BFS1697" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dfs.*" />
+          <option name="PATTERN" value="bfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,18 +282,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.DFS2667" />
-      <item itemvalue="Application.DFS2468" />
       <item itemvalue="Application.DFS_1012" />
       <item itemvalue="Application.BFS1278" />
       <item itemvalue="Application.BFS1260" />
+      <item itemvalue="Application.BFS1697" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BFS1260" />
+        <item itemvalue="Application.BFS1697" />
         <item itemvalue="Application.BFS1278" />
+        <item itemvalue="Application.BFS1260" />
         <item itemvalue="Application.DFS2667" />
         <item itemvalue="Application.DFS_1012" />
-        <item itemvalue="Application.DFS2468" />
       </list>
     </recent_temporary>
   </component>
@@ -314,11 +321,13 @@
       <workItem from="1531663911260" duration="1196000" />
       <workItem from="1531705102835" duration="4822000" />
       <workItem from="1531726222621" duration="3210000" />
+      <workItem from="1531739552316" duration="192000" />
+      <workItem from="1531833582549" duration="1344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31261000" />
+    <option name="totallyTimeSpent" value="32797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="719" extended-state="0" />
@@ -333,12 +342,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329582" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329582" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30533117" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31502423" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -366,13 +375,30 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/bfs/BFS1278.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="60" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bfs/BFS1260.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dfs/DFS2667.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="66" column="68" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -380,9 +406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="15" column="46" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -421,9 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="41" column="40" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="41" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -438,9 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -462,9 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="53" column="9" selection-start-line="47" selection-start-column="7" selection-end-line="53" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -479,9 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="53" column="9" selection-start-line="47" selection-start-column="7" selection-end-line="53" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -496,9 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="53" column="9" selection-start-line="47" selection-start-column="7" selection-end-line="53" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -513,9 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -537,9 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -554,9 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -701,9 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
           <caret line="66" column="68" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,9 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="37" column="12" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,8 +719,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bfs/BFS1278.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="41" column="60" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="60" />
+        <state relative-caret-position="585">
+          <caret line="41" column="60" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -736,8 +729,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bfs/BFS1260.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        <state relative-caret-position="529">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bfs/BFS1697.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
