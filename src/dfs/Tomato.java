@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class Tomato {
     static int M,N;
     static boolean[][] redtomato;
+    static boolean[][] visited;
     static int matrix[][];
     static final int[] dx = {0,-1,0,1};
     static final int[] dy = {-1,0,1,0};
@@ -19,9 +20,10 @@ public class Tomato {
 
         inputMatrix();
 
+
         for(int i=0;i<N;i++) {
             for(int j=0;j<M;j++) {
-                if(matrix[N][M]==1 && !redtomato[N][M]) {
+                if(matrix[N][M]==1 && !redtomato[N][M] && !visited[N][M]) {
                     dfs(N,M);
                 }
             }
@@ -31,11 +33,11 @@ public class Tomato {
 
     static public void inputMatrix() {
         // console 1줄씩 값 입력.
-        String[] s = new String[M+1];
-        for(int i=1;i<=M;i++) {
+        String[] s = new String[M];
+        for(int i=0;i<N;i++) {
             s[i] = sc.next();
-            for(int j=1;j<=M;j++) {
-                matrix[i][j] = s[i].charAt(j-1)-'0';
+            for(int j=0;j<M;j++) {
+                matrix[i][j] = s[i].charAt(j)-'0';
             }
         }
     }
@@ -45,19 +47,22 @@ public class Tomato {
         N = sc.nextInt();
         matrix = new int[N][M];
         redtomato = new boolean[N][M];
+        visited = new boolean[N][M];
         date = 0;
     }
 
     public static void dfs(int x, int y) {
-        redtomato[x][y] = true;
+        visited[x][y] = true;
+        if(matrix[x][y]==1)
+            redtomato[x][y] = true;
         for(int i=0;i<4;i++) {
             int nextX = x+dx[i];
             int nextY = y+dy[i];
             if(nextX>=0 && nextX<N && nextY>=0 && nextY<N) {
-                if(redtomato[nextX][nextY]==false && matrix[nextX][nextY]==1) {
+                if(redtomato[nextX][nextY]==false && !visited[nextX][nextY] && matrix[nextX][nextY]==1) {
                     date++;
                     dfs(nextX,nextY);
-                } else if(redtomato[nextX][nextY]==false && matrix[nextX][nextY]==-1) {
+                } else if(redtomato[nextX][nextY]==false && !visited[nextX][nextY] && matrix[nextX][nextY]==-1) {
                     date++;
                 }
             }
